@@ -1,0 +1,28 @@
+.div1{
+    border-radius: 50%; /* Borde redondo */
+    width: 400px; /* Ancho */
+    height: 400px; /* Alto */
+    background-color: red; /* Fondo rojo */
+    overflow: hidden;  /* selecciona lo que sobresale del padre (sobrante) */
+    display: flex; /* abrir caja flex */
+    position: relative; /* hace que el absolute detecte este div como padre y asi su 100% se ajusta a este div */
+}
+body{
+    display: flex; /* abrir caja flex */
+    justify-content: center; /* alinear contenido en horizontal */
+    align-items: center; /* alinear contenido en vertical */
+    border: 1px solid; /* borde del body para poder verlo */
+    height: 100vh; /* IMPORTANTE: OCUPA TODA LA VERTICALIDAD DE LA PANTALLA DE MI DISPOSITIVO */
+}
+img{
+    width: 100%; /* sirve para que la imagen ocupe el ancho que le permite su padre */
+}
+.texto{
+    position: absolute; /* ajusta el div a la posicion que le marques respecto al padre de manera fija */
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex; /* abrir caja flex */
+    justify-content: center;
+    align-items: center;
+}
