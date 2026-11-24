@@ -19,10 +19,10 @@ img{
 }
 .texto{
     position: absolute; /* ajusta el div a la posicion que le marques respecto al padre de manera fija */
-    height: 100%;
-    width: 100%;
+    height: 100%; /* sirve para que ocupe el alto que le permite su padre */
+    width: 100%; /* sirve para que ocupe el ancho que le permite su padre */
     /* background-color: blue; */
     display: flex; /* abrir caja flex */
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* alinea el contenido en horizontal */
+    align-items: center; /* alinea el contenido en vertical */
 }
